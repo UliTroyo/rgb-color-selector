@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RGB Color Selector</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="rgb-1.0.0.css" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="https://res.cloudinary.com/ulitroyo/image/upload/v1565905942/web/RGB%20color%20selector/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="https://res.cloudinary.com/ulitroyo/image/upload/v1565905943/web/RGB%20color%20selector/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="https://res.cloudinary.com/ulitroyo/image/upload/v1565905943/web/RGB%20color%20selector/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="https://res.cloudinary.com/ulitroyo/image/upload/v1565905943/web/RGB%20color%20selector/mstile-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="https://res.cloudinary.com/ulitroyo/image/upload/v1565905943/web/RGB%20color%20selector/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="https://res.cloudinary.com/ulitroyo/image/upload/v1565905942/web/RGB%20color%20selector/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://res.cloudinary.com/ulitroyo/image/upload/v1565905943/web/RGB%20color%20selector/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://res.cloudinary.com/ulitroyo/image/upload/v1565905942/web/RGB%20color%20selector/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <meta name="application-name" content="RGB Color Selector" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta
+      name="msapplication-TileImage"
+      content="https://res.cloudinary.com/ulitroyo/image/upload/v1565905943/web/RGB%20color%20selector/mstile-144x144.png"
+    />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@ulitroyo" />
+
+    <!-- OpenGraph -->
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/ulitroyo/image/upload/v1565907283/web/RGB%20color%20selector/RGB-color-selector-ulitroyo.png"
+    />
+    <meta
+      property="og:url"
+      content="https://github.com/UliTroyo/rgb-color-selector"
+    />
+    <meta property="og:title" content="RGB Color Selector" />
+    <meta
+      property="og:description"
+      content="Transform RGB colors by modifying their RGB input"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <form class="sliders">
+        <div class="sliders__fields" id="red">
+          <label for="red" class="sliders__label">R</label>
+          <div class="sliders__bg">
+            <input
+              name="red"
+              type="range"
+              min="0"
+              max="255"
+              value="136"
+              class="sliders__slider"
+            />
+          </div>
+          <span class="sliders__output">88</span>
+        </div>
+
+        <div class="sliders__fields" id="green">
+          <label for="green" class="sliders__label">G</label>
+          <div class="sliders__bg">
+            <input
+              name="green"
+              type="range"
+              min="0"
+              max="255"
+              value="0"
+              class="sliders__slider"
+            />
+          </div>
+          <span class="sliders__output">00</span>
+        </div>
+
+        <div class="sliders__fields" id="blue">
+          <label for="blue" class="sliders__label">B</label>
+          <div class="sliders__bg">
+            <input
+              name="blue"
+              type="range"
+              min="0"
+              max="255"
+              value="136"
+              class="sliders__slider"
+            />
+          </div>
+          <span class="sliders__output">88</span>
+        </div>
+      </form>
+      <article class="rgb-color"></article>
+    </main>
+    <style data="thumb-style" type="text/css"></style>
+  </body>
+  <script src="rgb-1.0.0.js"></script>
+</html>
